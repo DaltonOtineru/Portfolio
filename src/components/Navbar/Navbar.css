@@ -1,0 +1,48 @@
+.navbar {
+  z-index: 5;
+}
+.navbar--container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 !important;
+}
+.navbar--logo i:nth-child(1) {
+  margin-right: 0.3rem;
+}
+.name--anchor {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+.first--name {
+  color: #6366f1;
+  font-weight: 700;
+  margin-right: 5px;
+}
+.last--name {
+  color: #374151;
+}
+.nav--links--wrap {
+  justify-content: end;
+}
+.navbar--links {
+  display: flex;
+  font-size: 1.125rem;
+}
+.navbar--links .nav--link:not(:last-child) {
+  margin-right: 1rem;
+}
+.nav--link {
+  color: #374151 !important;
+  padding: 12px 24px !important;
+}
+.nav--link:hover {
+  background-color: #6366f1;
+  color: #ffffff !important;
+  border-radius: 0.5rem;
+}
+.navbar--contact {
+  background-color: #6366f1 !important;
+  border-radius: 0.5rem !important;
+  padding: 0.5rem 1.1rem !important;
+  font-size: 1.125rem !important;
+}
