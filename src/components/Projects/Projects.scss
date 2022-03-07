@@ -1,0 +1,66 @@
+@import '../../sass/variables.scss';
+.projects {
+  padding-bottom: 20em;
+}
+.projects--header {
+  text-align: center;
+  padding-bottom: 6rem;
+  color: $light-purple;
+  font-size: 3rem;
+}
+.project--single {
+  display: flex;
+  justify-content: center;
+  width: min(100% - 2em, 70em);
+}
+.project--img--div {
+  width: 100%;
+  text-align: center;
+}
+.project--img {
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.project--name {
+  color: $dark-grey;
+  font-size: 2rem;
+}
+.project--info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.project--description {
+  max-width: 500px;
+  color: $light-grey;
+}
+.project--tech {
+  margin-top: 2rem;
+}
+.project--tech--header {
+  margin-bottom: 1rem;
+}
+.project--icon {
+  font-size: 3rem;
+  color: $light-purple;
+}
+.project--icon--box .project--icon:not(:last-child) {
+  margin-right: 1.5rem;
+}
+.project--github {
+  text-decoration: none;
+  font-size: 3rem;
+  color: $dark-grey;
+  padding-top: 3rem;
+  transition: color 0.3s ease;
+}
+.project--github:hover {
+  color: $light-purple;
+}
+
+.hacker--news {
+  padding-bottom: 5rem;
+}

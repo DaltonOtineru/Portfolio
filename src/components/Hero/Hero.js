@@ -21,6 +21,9 @@ const Hero = () => {
           <a href="https://github.com/DaltonOtineru" target="_blank">
             <i class="devicon-github-original-wordmark github--hero--icon"></i>
           </a>
+          <a href="https://github.com/DaltonOtineru" target="_blank">
+            <i class="devicon-linkedin-plain github--hero--icon"></i>
+          </a>
         </div>
       </Container>
     </section>

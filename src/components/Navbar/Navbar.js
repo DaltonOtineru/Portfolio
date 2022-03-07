@@ -15,7 +15,7 @@ const Navigation = () => {
   };
 
   return (
-    <Navbar className="navbar" variant="light" expand="lg" sticky="top">
+    <Navbar className="navbar" variant="light" expand="lg">
       <Container className="navbar--container">
         <Navbar.Brand href="#home" className="navbar--logo">
           <a href="#" className="name--anchor">
@@ -23,6 +23,7 @@ const Navigation = () => {
             <span className="last--name">Otineru</span>
           </a>
         </Navbar.Brand>
+
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
         <Navbar.Collapse

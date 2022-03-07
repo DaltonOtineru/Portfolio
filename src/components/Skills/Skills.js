@@ -1,5 +1,5 @@
 import React from 'react';
-import bootstrap from '../../img/bootstrap.png';
+
 import { Container } from 'react-bootstrap';
 import './Skills.scss';
 

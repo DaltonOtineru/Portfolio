@@ -51,3 +51,13 @@
 .navbar--contact:hover {
   background: $dark-purple !important;
 }
+
+@media (max-width: 991px) {
+  .navbar--links a {
+    text-align: center;
+  }
+  .navbar--contact {
+    width: 12rem;
+    margin: 0 auto;
+  }
+}
