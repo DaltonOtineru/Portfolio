@@ -1,10 +1,7 @@
 import React from 'react';
 import { MenuItems } from './MenuItems';
 import { Container, Navbar, Nav, Button } from 'react-bootstrap';
-import './Navbar.css';
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faD } from '@fortawesome/free-solid-svg-icons';
+import './Navbar.scss';
 
 const Navigation = () => {
   const renderLinks = () => {
@@ -18,11 +15,9 @@ const Navigation = () => {
   };
 
   return (
-    <Navbar className="navbar" variant="light" expand="lg">
+    <Navbar className="navbar" variant="light" expand="lg" sticky="top">
       <Container className="navbar--container">
         <Navbar.Brand href="#home" className="navbar--logo">
-          {/* <i class="fa-solid fa-d" />
-          <i class="fa-solid fa-o" /> */}
           <a href="#" className="name--anchor">
             <span className="first--name">Dalton</span>
             <span className="last--name">Otineru</span>
@@ -37,7 +32,7 @@ const Navigation = () => {
           <Nav className="navbar--links ">
             {renderLinks()}
             <Button type="button" className="navbar--contact">
-              Get In Touch
+              Connect With Me
             </Button>
           </Nav>
         </Navbar.Collapse>
