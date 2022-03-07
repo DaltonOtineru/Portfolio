@@ -1,0 +1,54 @@
+@import '../../sass/variables.scss';
+
+.contact {
+  padding-bottom: 10rem;
+}
+.contact--inner {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  max-width: 700px !important;
+}
+.contact--header {
+  text-align: center;
+  padding-bottom: 6rem;
+  color: $light-purple;
+  font-size: 3rem;
+}
+.form--email--name {
+  width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.form--email--name input {
+  width: 48%;
+  background: none;
+  border-bottom: 2px solid $light-purple;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 4px 0;
+}
+.form--message {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.subject--input {
+  background: none;
+  border-bottom: 2px solid $light-purple;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 1rem;
+}
+.message--input {
+  background: none;
+  border-bottom: 2px solid $light-purple;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}

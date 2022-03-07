@@ -30,14 +30,26 @@ const Spotify = () => {
             <div className="project--tech">
               <h5 className="project--tech--header">Technologies Used</h5>
               <div className="project--icon--box">
-                <i class="devicon-react-original project--icon"></i>
-                <i class="devicon-javascript-plain project--icon"></i>
-                <i class="devicon-css3-plain project--icon"></i>
+                <i className="devicon-react-original project--icon"></i>
+                <i className="devicon-javascript-plain project--icon"></i>
+                <i className="devicon-css3-plain project--icon"></i>
               </div>
             </div>
-            <a href="#" className="project--github">
-              <i class="devicon-github-original-wordmark"></i>
-            </a>
+            <div className="project--links">
+              <a
+                href="https://github.com/DaltonOtineru"
+                className="project--github"
+              >
+                <i className="devicon-github-original-wordmark"></i>
+              </a>
+              <a
+                href="https://spotify-clone-daltonotineru.vercel.app/"
+                className="project--site"
+                target="_blank"
+              >
+                <i className="fa-solid fa-desktop"></i>
+              </a>
+            </div>
           </div>
         </div>
       </Col>

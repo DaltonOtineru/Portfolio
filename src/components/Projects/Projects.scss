@@ -50,12 +50,29 @@
 .project--icon--box .project--icon:not(:last-child) {
   margin-right: 1.5rem;
 }
+.project--links {
+  margin-top: 2rem;
+  display: flex;
+  align-items: baseline;
+}
 .project--github {
   text-decoration: none;
   font-size: 3rem;
   color: $dark-grey;
-  padding-top: 3rem;
+  margin-top: 3rem;
   transition: color 0.3s ease;
+  width: 50px;
+}
+.project--site {
+  text-decoration: none;
+  font-size: 2.75rem;
+  color: $dark-grey;
+  margin-top: 3rem;
+  transition: color 0.3s ease;
+  padding-left: 1rem;
+}
+.project--site:hover {
+  color: $light-purple;
 }
 .project--github:hover {
   color: $light-purple;

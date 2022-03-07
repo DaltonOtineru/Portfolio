@@ -3,6 +3,7 @@ import Navigation from '../Navbar/Navbar';
 import Hero from '../Hero/Hero';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
+import Contact from '../Contact/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.scss';
 
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }
