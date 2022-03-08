@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Row, Col } from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import spotify from '../../img/readme_spotify.png';
 
 const Spotify = () => {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   return (
-    <Row className="project--row">
+    <Row
+      className="project--row spotify"
+      data-aos="fade-right"
+      data-aos-duration="2000"
+      data-aos-delay="300"
+      data-aos-once="true"
+    >
       <Col sm={12} lg={6} className="project--col">
         <div className="project--img--div">
           <img
@@ -37,8 +48,9 @@ const Spotify = () => {
             </div>
             <div className="project--links">
               <a
-                href="https://github.com/DaltonOtineru"
+                href="https://github.com/DaltonOtineru/Spotify_Clone"
                 className="project--github"
+                target="_blank"
               >
                 <i className="devicon-github-original-wordmark"></i>
               </a>

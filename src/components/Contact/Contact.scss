@@ -14,7 +14,7 @@
 }
 .form--bg {
   margin-top: 4rem;
-  width: 800px;
+  width: min(100% - 0.5rem, 800px);
   height: 500px;
 
   // background: #f5f4f4;
@@ -25,7 +25,7 @@
 .contact--header {
   text-align: center;
   padding-bottom: 4rem;
-  color: $light-purple;
+  color: $light-grey;
   font-size: 3rem;
   margin-top: 1rem;
 }
@@ -86,4 +86,9 @@
 }
 .submit--btn--icon {
   margin-left: 10px;
+}
+@media (max-width: 600px) {
+  .contact {
+    padding-bottom: 2rem;
+  }
 }

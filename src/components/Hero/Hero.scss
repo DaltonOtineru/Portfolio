@@ -59,3 +59,21 @@
 .github--hero--icon:hover {
   color: $light-purple;
 }
+
+@media (max-width: 600px) {
+  .job--title {
+    font-size: 2.6rem !important;
+  }
+  .hero--intro {
+    font-size: 2rem;
+  }
+  .button--box a {
+    margin-top: 1rem;
+  }
+  .button--box {
+    flex-wrap: wrap;
+  }
+  .hero--wrap > * {
+    margin-left: 0.5rem;
+  }
+}

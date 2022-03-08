@@ -53,6 +53,15 @@
 }
 
 @media (max-width: 991px) {
+  .navbar--logo {
+    margin-left: 1rem;
+  }
+  .navbar-toggler {
+    margin-right: 1rem !important;
+  }
+}
+
+@media (max-width: 991px) {
   .navbar--links a {
     text-align: center;
   }

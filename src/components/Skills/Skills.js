@@ -1,12 +1,23 @@
-import React from 'react';
-
+import React, { useEffect } from 'react';
 import { Container } from 'react-bootstrap';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import './Skills.scss';
 
 const Skills = () => {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+
   return (
     <section className="skills">
-      <Container className="skills--wrap">
+      <Container
+        className="skills--wrap"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+        data-aos-delay="500"
+        data-aos-once="true"
+      >
         <h3 className="skills--title">Skills</h3>
         <div className="skills--inner">
           <div className="icon--box">

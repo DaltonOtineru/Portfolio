@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FiSend } from 'react-icons/fi';
 import { Container, Button } from 'react-bootstrap';
 import './Contact.scss';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
   return (
     <section className="contact">
-      <Container className="contact--inner">
+      <Container
+        className="contact--inner"
+        data-aos="fade-up"
+        data-aos-duration="2000"
+        data-aos-delay="300"
+        data-aos-once="true"
+      >
         <div className="form--bg">
           <h4 className="contact--header">Contact</h4>
           <div className="contact--form">

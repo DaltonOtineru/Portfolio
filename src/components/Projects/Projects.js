@@ -3,6 +3,7 @@ import './Projects.scss';
 import { Container } from 'react-bootstrap';
 import HackerNews from './HackerNews';
 import Spotify from './Spotify';
+import TodoList from './TodoList';
 
 const Projects = () => {
   return (
@@ -11,6 +12,7 @@ const Projects = () => {
         <h3 className="projects--header">Projects</h3>
         <HackerNews />
         <Spotify />
+        <TodoList />
       </Container>
     </section>
   );

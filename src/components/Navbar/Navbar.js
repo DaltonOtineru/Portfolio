@@ -7,7 +7,12 @@ const Navigation = () => {
   const renderLinks = () => {
     return MenuItems.map((item, index) => {
       return (
-        <Nav.Link href={item.url} key={index} className={item.cName}>
+        <Nav.Link
+          target={item.target}
+          href={item.url}
+          key={index}
+          className={item.cName}
+        >
           {item.title}
         </Nav.Link>
       );

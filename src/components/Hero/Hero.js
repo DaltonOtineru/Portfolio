@@ -1,11 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Button } from 'react-bootstrap';
 import './Hero.scss';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Hero = () => {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+
   return (
     <section className="hero">
-      <Container className="hero--wrap">
+      <Container
+        className="hero--wrap"
+        data-aos="fade-right"
+        data-aos-duration="2000"
+        data-aos-delay="500"
+        data-aos-once="true"
+      >
         <div className="job">
           <h1 className="job--title">Front End Developer</h1>
         </div>
