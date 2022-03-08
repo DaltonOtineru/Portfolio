@@ -36,7 +36,11 @@ const HackerNews = () => {
                 <i class="devicon-bootstrap-plain project--icon"></i>
               </div>
             </div>
-            <a href="#" className="project--github">
+            <a
+              href="https://github.com/DaltonOtineru/Hacker_News"
+              target="_blank"
+              className="project--github"
+            >
               <i class="devicon-github-original-wordmark"></i>
             </a>
           </div>
