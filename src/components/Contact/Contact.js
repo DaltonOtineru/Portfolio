@@ -10,7 +10,7 @@ const Contact = () => {
     AOS.init({});
   }, []);
   return (
-    <section className="contact">
+    <section id="contact" className="contact">
       <Container
         className="contact--inner"
         data-aos="fade-up"

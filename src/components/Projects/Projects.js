@@ -7,7 +7,7 @@ import TodoList from './TodoList';
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section id="projects" className="projects">
       <Container className="projects--wrap">
         <h3 className="projects--header">Projects</h3>
         <HackerNews />

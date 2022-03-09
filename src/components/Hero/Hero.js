@@ -28,14 +28,28 @@ const Hero = () => {
           </h3>
         </div>
         <div className="button--box">
-          <Button className="hero--btn">Hire Me</Button>
-          <Button className="hero--btn--projects">Projects</Button>
-          <a href="https://github.com/DaltonOtineru" target="_blank">
-            <i class="devicon-github-original-wordmark github--hero--icon"></i>
-          </a>
-          <a href="https://www.linkedin.com/in/dotineru/" target="_blank">
-            <i class="devicon-linkedin-plain github--hero--icon"></i>
-          </a>
+          <Button href="#calendly" className="hero--btn">
+            Hire Me
+          </Button>
+          <Button href="#projects" className="hero--btn--projects">
+            Projects
+          </Button>
+          <div className="hero--socials">
+            <a
+              href="https://github.com/DaltonOtineru"
+              className="hero--icon--anchor"
+              target="_blank"
+            >
+              <i className="devicon-github-original-wordmark hero--icon"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/dotineru/"
+              className="hero--icon--anchor"
+              target="_blank"
+            >
+              <i className="devicon-linkedin-plain hero--icon"></i>
+            </a>
+          </div>
         </div>
       </Container>
     </section>

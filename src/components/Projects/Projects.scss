@@ -125,3 +125,8 @@
     padding-right: 0.5rem;
   }
 }
+@media (max-width: 415px) {
+  .project--info {
+    max-width: 100%;
+  }
+}

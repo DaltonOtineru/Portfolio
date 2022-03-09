@@ -5,7 +5,7 @@ import './Calendly.scss';
 
 const Calendly = () => {
   return (
-    <div className="calendly">
+    <div id="calendly" className="calendly">
       <Container className="calendly--inner">
         <div className="calendly--title--box">
           <h4 className="calendly--title">

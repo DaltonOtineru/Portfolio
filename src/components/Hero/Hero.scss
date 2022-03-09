@@ -50,16 +50,32 @@
 .button--box a {
   text-decoration: none;
 }
-.github--hero--icon {
-  font-size: 3rem;
+.hero--socials {
+  display: flex;
+  align-items: baseline;
+}
+.hero--icon--anchor {
+  display: flex;
+  justify-content: left;
   margin-left: 1rem;
+}
+.hero--icon {
+  font-size: 3rem;
+  // margin-left: 1rem;
   color: $dark-grey;
   transition: color 0.3s ease;
 }
-.github--hero--icon:hover {
+.hero--icon:hover {
   color: $light-purple;
 }
-
+@media (max-width: 767px) {
+  .job--title {
+    font-size: 3.5rem !important;
+  }
+  .hero--intro {
+    font-size: 2.1rem;
+  }
+}
 @media (max-width: 600px) {
   .job--title {
     font-size: 2.6rem !important;
@@ -75,5 +91,31 @@
   }
   .hero--wrap > * {
     margin-left: 0.5rem;
+  }
+  .hero--icon {
+    // padding-right: 1rem;
+  }
+}
+@media (max-width: 498px) {
+  .hero--icon--anchor {
+    margin-left: 0;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .job--title {
+    font-size: 2.4rem !important;
+  }
+  .hero--intro {
+    font-size: 1.95rem;
+  }
+}
+@media (max-width: 380px) {
+  .job--title {
+    font-size: 2.2rem !important;
+  }
+  .hero--intro {
+    font-size: 1.95rem;
   }
 }

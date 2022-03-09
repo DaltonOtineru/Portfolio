@@ -37,7 +37,7 @@ const Navigation = () => {
         >
           <Nav className="navbar--links ">
             {renderLinks()}
-            <Button type="button" className="navbar--contact">
+            <Button href="#calendly" type="button" className="navbar--contact">
               Connect With Me
             </Button>
           </Nav>
