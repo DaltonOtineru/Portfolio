@@ -55,10 +55,10 @@ const Contact = () => {
                 ></textarea>
               </div>
               <div className="submit--btn--box">
-                <Button type="button" className="submit--btn">
+                <button type="submit" className="submit--btn">
                   Submit
                   <FiSend className="submit--btn--icon" />
-                </Button>
+                </button>
               </div>
             </form>
           </div>
