@@ -41,20 +41,29 @@ const HackerNews = () => {
             <div className="project--tech">
               <h5 className="project--tech--header">Technologies Used</h5>
               <div className="project--icon--box">
-                <i class="devicon-react-original project--icon"></i>
-                <i class="devicon-javascript-plain project--icon"></i>
-                <i class="devicon-css3-plain project--icon"></i>
+                <i className="devicon-react-original project--icon"></i>
+                <i className="devicon-javascript-plain project--icon"></i>
+                <i className="devicon-css3-plain project--icon"></i>
 
-                <i class="devicon-bootstrap-plain project--icon"></i>
+                <i className="devicon-bootstrap-plain project--icon"></i>
               </div>
             </div>
-            <a
-              href="https://github.com/DaltonOtineru/Hacker_News"
-              target="_blank"
-              className="project--github"
-            >
-              <i class="devicon-github-original-wordmark"></i>
-            </a>
+            <div className="project--links">
+              <a
+                href="https://github.com/DaltonOtineru/Hacker_News"
+                className="project--github"
+                target="_blank"
+              >
+                <i className="devicon-github-original-wordmark"></i>
+              </a>
+              <a
+                href="https://hacker-newsclone.netlify.app"
+                className="project--site"
+                target="_blank"
+              >
+                <i className="fa-solid fa-desktop"></i>
+              </a>
+            </div>
           </div>
         </div>
       </Col>

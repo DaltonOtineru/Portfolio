@@ -21,7 +21,8 @@ const Contact = () => {
         <div className="form--bg">
           <h4 className="contact--header">Contact</h4>
           <div className="contact--form">
-            <form className="form" method="POST" name="contactForm">
+            <form className="form" method="post" name="contact">
+              <input type="hidden" name="form-name" value="contact" />
               <div className="form--email--name">
                 <input
                   type="text"
@@ -31,7 +32,7 @@ const Contact = () => {
                   autoComplete="off"
                 />
                 <input
-                  type="text"
+                  type="email"
                   name="email"
                   placeholder="Email"
                   className="email--input"
@@ -49,6 +50,7 @@ const Contact = () => {
                   name="message"
                   placeholder="Message"
                   className="message--input"
+                  type="text"
                   rows="1"
                 ></textarea>
               </div>

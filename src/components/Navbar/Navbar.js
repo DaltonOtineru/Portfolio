@@ -23,10 +23,10 @@ const Navigation = () => {
     <Navbar className="navbar" variant="light" expand="lg">
       <Container className="navbar--container">
         <Navbar.Brand href="#home" className="navbar--logo">
-          <a href="#" className="name--anchor">
+          <span href="#" className="name--anchor">
             <span className="first--name">Dalton</span>
             <span className="last--name">Otineru</span>
-          </a>
+          </span>
         </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
