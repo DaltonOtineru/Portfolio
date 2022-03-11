@@ -4,11 +4,7 @@ export const MenuItems = [
     url: '#',
     cName: 'nav--link',
   },
-  {
-    title: 'About',
-    url: '#',
-    cName: 'nav--link',
-  },
+
   {
     title: 'Projects',
     url: '#projects',
@@ -16,7 +12,7 @@ export const MenuItems = [
   },
   {
     title: 'Resume',
-    url: 'https://resume.creddle.io/resume/47x9hso76l9',
+    url: 'https://drive.google.com/file/d/13LUF0gIEOD5HCdDvxj_K_hdwm79z__0_/view?usp=sharing',
     cName: 'nav--link',
     target: '_blank',
   },

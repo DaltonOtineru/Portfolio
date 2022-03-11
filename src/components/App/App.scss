@@ -1,3 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+.app {
+  z-index: 1;
+  position: relative;
+  font-family: 'Roboto';
+}
 .app:before {
   content: '';
   z-index: -1 !important;
@@ -12,9 +20,4 @@
     radial-gradient(#444cf7 2px, #ffffff 2px);
   background-size: 100px 100px;
   background-position: 0 0, 40px 40px;
-}
-.app {
-  z-index: 1;
-  position: relative;
-  font-family: 'Roboto';
 }

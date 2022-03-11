@@ -32,11 +32,11 @@ const HackerNews = () => {
             <h4 className="project--name">Hacker News Clone</h4>
             <p className="project--description">
               This web application is a fully responsive clone of the Hacker
-              News web application built in React JS, utilizing the News.org
-              API. All interaction with the API was done by Axios. Articles and
-              all relevant information is displayed in a main news section and
-              top news section on the sidebar. The application includes search
-              functionality for specific articles.
+              News web application built in React JS, utilizing the New York
+              Times API. All interaction with the API was done by Axios.
+              Articles and all relevant information is displayed in a main news
+              section and top news section on the sidebar. The application
+              includes search functionality for specific articles.
             </p>
             <div className="project--tech">
               <h5 className="project--tech--header">Technologies Used</h5>

@@ -71,7 +71,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  // align-items: flex-start;
+
   padding-top: 4rem;
 }
 .submit--btn {
@@ -80,6 +80,7 @@
   padding: 0.7rem 1.7rem !important;
   font-size: 1.3rem !important;
   border: none !important;
+  color: #ffffff;
 }
 .submit--btn:hover {
   background: $dark-purple !important;
