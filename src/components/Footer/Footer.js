@@ -25,7 +25,7 @@ const Footer = () => {
           LinkedIn
         </Button>
         <Button
-          href="https://resume.creddle.io/resume/47x9hso76l9"
+          href="https://drive.google.com/file/d/13LUF0gIEOD5HCdDvxj_K_hdwm79z__0_/view?usp=sharing"
           className="footer--btn footer--resume"
           target="_blank"
         >

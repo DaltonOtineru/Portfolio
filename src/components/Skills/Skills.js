@@ -14,8 +14,8 @@ const Skills = () => {
       <Container
         className="skills--wrap"
         data-aos="fade-up"
-        data-aos-duration="3000"
-        data-aos-delay="500"
+        data-aos-duration="2000"
+        data-aos-delay="300"
         data-aos-once="true"
       >
         <h3 className="skills--title">Skills</h3>

@@ -4,12 +4,14 @@ import { Container } from 'react-bootstrap';
 import HackerNews from './HackerNews';
 import Spotify from './Spotify';
 import TodoList from './TodoList';
+import Ecommerce from './Ecommerce';
 
 const Projects = () => {
   return (
     <section id="projects" className="projects">
       <Container className="projects--wrap">
         <h3 className="projects--header">Projects</h3>
+        <Ecommerce />
         <HackerNews />
         <Spotify />
         <TodoList />
