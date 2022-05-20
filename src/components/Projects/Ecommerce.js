@@ -33,7 +33,7 @@ const Ecommerce = () => {
           <div className="project--info">
             <h4 className="project--name">Ecommerce Online Store</h4>
             <p className="project--description">
-              This fully responsive E-commerce store was built with Ract JS. It
+              This fully responsive E-commerce store was built with React JS. It
               utilizes Redux for all state managment between components,
               including the shopping cart and user authentication. Firebase is
               integrated for user registraion and login functionality. Products
