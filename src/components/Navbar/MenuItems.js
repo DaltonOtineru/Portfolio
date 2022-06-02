@@ -12,7 +12,7 @@ export const MenuItems = [
   },
   {
     title: 'Resume',
-    url: 'https://drive.google.com/file/d/13LUF0gIEOD5HCdDvxj_K_hdwm79z__0_/view?usp=sharing',
+    url: 'https://drive.google.com/file/d/14OZLMNV4qTMl_Q_GxXsyARnr9sn4OZn8/view?usp=sharing',
     cName: 'nav--link',
     target: '_blank',
   },
