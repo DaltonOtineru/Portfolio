@@ -2,10 +2,14 @@
 .skills {
   padding-bottom: 10rem;
 }
+.skills--wrap {
+  max-width: 800px !important;
+}
 .skills--inner {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  // flex-direction: row;
+  // justify-content: space-around;
 
   // flex-wrap: wrap;
   margin: 0 auto;
@@ -37,7 +41,10 @@
     padding-bottom: 5rem;
   }
   .skills--inner {
-    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+  }
+  .skills--wrap {
+    max-width: 80vw !important;
   }
 }
 @media (max-width: 991px) {

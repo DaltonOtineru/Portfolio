@@ -3,16 +3,16 @@ import { Row, Col } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import ecommerce from '../../img/ecommerce.png';
+import twitter from '../../img/twitter.png';
 
-const Ecommerce = () => {
+const SocialMedia = () => {
   useEffect(() => {
     AOS.init({});
   }, []);
 
   return (
     <Row
-      className="project--row hacker--news"
+      className="project--row social--media"
       data-aos="fade-right"
       data-aos-duration="2000"
       data-aos-delay="300"
@@ -20,24 +20,28 @@ const Ecommerce = () => {
     >
       <Col sm={12} lg={6} className="project--col">
         <div className="project--img--div">
-          <img
-            src={ecommerce}
-            alt="Ecommerce Project"
-            className="project--img"
-          />
+          <img src={twitter} alt="Ecommerce Project" className="project--img" />
         </div>
       </Col>
       <Col sm={12} lg={6} className="project--col">
         <div className="project--right">
           <div className="project--info">
-            <h4 className="project--name">Ecommerce Store</h4>
+            <h4 className="project--name">Social Media</h4>
             <p className="project--description">
-              This fully responsive E-commerce store was built with React JS. It
+              I built this fully responsive social media application with React
+              JS. Users can create posts, like posts, and comment on posts. I
+              integrated Firebase for storing and fetching all posts, comments,
+              likes and user info such as profile picture and display name. The
+              app also uses Firebase for user authentication to register or log
+              in users. I utilized Redux to share state between components,
+              including user information. I used React Router to allow users to
+              view individual post pages.
+              {/* This fully responsive E-commerce store was built with React JS. It
               utilizes Redux for all state managment between components,
               including the shopping cart and user authentication. Firebase is
               integrated for user registraion and login functionality. Products
               are displayed on their correlated pages and React Router is used
-              to navigate through the site.
+              to navigate through the site. */}
             </p>
             <div className="project--tech">
               <h5 className="project--tech--header">Technologies Used</h5>
@@ -51,14 +55,14 @@ const Ecommerce = () => {
             </div>
             <div className="project--links">
               <a
-                href="https://github.com/DaltonOtineru/e_commerce"
+                href="https://github.com/DaltonOtineru/social_media"
                 className="project--github"
                 target="_blank"
               >
                 <i className="devicon-github-original-wordmark"></i>
               </a>
               <a
-                href="https://ecommerce-online-shop.netlify.app/"
+                href="https://twitter-redesign.netlify.app/"
                 className="project--site"
                 target="_blank"
               >
@@ -72,4 +76,4 @@ const Ecommerce = () => {
   );
 };
 
-export default Ecommerce;
+export default SocialMedia;

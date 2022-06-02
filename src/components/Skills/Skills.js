@@ -21,14 +21,6 @@ const Skills = () => {
         <h3 className="skills--title">Skills</h3>
         <div className="skills--inner">
           <div className="icon--box">
-            <i className="devicon-html5-plain skill--icon"></i>
-            <p className="icon--name">HTML5</p>
-          </div>
-          <div className="icon--box">
-            <i className="devicon-css3-plain skill--icon"></i>
-            <p className="icon--name">CSS3</p>
-          </div>
-          <div className="icon--box">
             <i className="devicon-javascript-plain skill--icon"></i>
             <p className="icon--name">JavaScript</p>
           </div>
@@ -40,6 +32,22 @@ const Skills = () => {
           <div className="icon--box">
             <i className="devicon-redux-original skill--icon"></i>
             <p className="icon--name">Redux</p>
+          </div>
+          <div className="icon--box">
+            <i className="devicon-firebase-plain skill--icon"></i>
+            <p className="icon--name">Firebase</p>
+          </div>
+          <div className="icon--box">
+            <i className="devicon-sass-original skill--icon"></i>
+            <p className="icon--name">Sass</p>
+          </div>
+          <div className="icon--box">
+            <i className="devicon-html5-plain skill--icon"></i>
+            <p className="icon--name">HTML5</p>
+          </div>
+          <div className="icon--box">
+            <i className="devicon-css3-plain skill--icon"></i>
+            <p className="icon--name">CSS3</p>
           </div>
           <div className="icon--box">
             <i className="devicon-bootstrap-plain skill--icon"></i>

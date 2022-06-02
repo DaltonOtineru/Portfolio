@@ -78,12 +78,15 @@
   color: $light-purple;
 }
 
+.social--media {
+  padding-bottom: 5rem;
+}
 .hacker--news {
   padding-bottom: 5rem;
 }
-.spotify {
-  padding-bottom: 5rem;
-}
+// .spotify {
+//   padding-bottom: 5rem;
+// }
 
 @media (max-width: 991px) {
   .projects {
@@ -113,6 +116,9 @@
     padding-bottom: 3rem;
   }
   .spotify {
+    padding-bottom: 3rem;
+  }
+  .social--media {
     padding-bottom: 3rem;
   }
 }

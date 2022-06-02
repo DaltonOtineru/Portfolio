@@ -28,7 +28,7 @@ const Spotify = () => {
       <Col sm={12} lg={6} className="project--col">
         <div className="project--right">
           <div className="project--info">
-            <h4 className="project--name">Spotify Web application</h4>
+            <h4 className="project--name">Spotify Application</h4>
             <p className="project--description">
               This web application was built with React JS, and pulls in artist
               and track data from the Spotify Web API. The user has the ability
