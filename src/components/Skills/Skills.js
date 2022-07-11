@@ -26,7 +26,11 @@ const Skills = () => {
           </div>
           <div className="icon--box">
             <i className="devicon-react-original skill--icon"></i>
-            <p className="icon--name">React</p>
+            <p className="icon--name">React.js</p>
+          </div>
+          <div className="icon--box">
+            <i className="devicon-nextjs-original skill--icon"></i>
+            <p className="icon--name">Next.js</p>
           </div>
 
           <div className="icon--box">
@@ -42,12 +46,8 @@ const Skills = () => {
             <p className="icon--name">Sass</p>
           </div>
           <div className="icon--box">
-            <i className="devicon-html5-plain skill--icon"></i>
-            <p className="icon--name">HTML5</p>
-          </div>
-          <div className="icon--box">
-            <i className="devicon-css3-plain skill--icon"></i>
-            <p className="icon--name">CSS3</p>
+            <i className="devicon-tailwindcss-plain skill--icon"></i>
+            <p className="icon--name">Tailwind CSS</p>
           </div>
           <div className="icon--box">
             <i className="devicon-bootstrap-plain skill--icon"></i>
