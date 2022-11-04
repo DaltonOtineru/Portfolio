@@ -1,9 +1,8 @@
 import React from 'react';
 import './Projects.scss';
 import { Container } from 'react-bootstrap';
-import HackerNews from './HackerNews';
-import Spotify from './Spotify';
-import TodoList from './TodoList';
+import Pokedex from './Pokedex';
+
 import Ecommerce from './Ecommerce';
 import SocialMedia from './SocialMedia';
 import RealEstate from './RealEstate';
@@ -14,11 +13,9 @@ const Projects = () => {
       <Container className="projects--wrap">
         <h3 className="projects--header">Projects</h3>
         <RealEstate />
+        <Pokedex />
         <SocialMedia />
         <Ecommerce />
-        <HackerNews />
-        {/* <Spotify /> */}
-        {/* <TodoList /> */}
       </Container>
     </section>
   );

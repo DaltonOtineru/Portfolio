@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import { Row, Col } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import hackerNews from '../../img/hacker_news_portfolio.png';
+import pokemon from '../../img/pokemon_portfolio.png';
 
-const HackerNews = () => {
+const Pokedex = () => {
   useEffect(() => {
     AOS.init({});
   }, []);
@@ -19,45 +19,42 @@ const HackerNews = () => {
     >
       <Col sm={12} lg={6} className="project--col">
         <div className="project--img--div">
-          <img
-            src={hackerNews}
-            alt="hacker news clone"
-            className="project--img"
-          />
+          <img src={pokemon} alt="hacker news clone" className="project--img" />
         </div>
       </Col>
       <Col sm={12} lg={6} className="project--col">
         <div className="project--right">
           <div className="project--info">
-            <h4 className="project--name">Hacker News Clone</h4>
+            <h4 className="project--name">Pokedex</h4>
             <p className="project--description">
-              This web application is a fully responsive clone of the Hacker
-              News web application built in React JS, utilizing the New York
-              Times API. All interaction with the API was done by Axios.
-              Articles and all relevant information is displayed in a main news
-              section and top news section on the sidebar. The application
-              includes search functionality for specific articles.
+              This web applcation is fully responsive, built with React.js and
+              Tailwind CSS. The app generates Pokemon data utilizing the Pokemon
+              API and displays the response as a paginated grid with the Pokemon
+              name, image, type and color coded background correlated to the
+              Pokemons typing. When the user clicks on an individual Pokemon a
+              card is displayed with the Pokemons stats. The user can also
+              "catch" pokemon and give them a nickname and captured date/level.
+              The captured Pokemons are persisted with local storage and can be
+              viewed on a separate captured pokemon page.
             </p>
             <div className="project--tech">
               <h5 className="project--tech--header">Technologies Used</h5>
               <div className="project--icon--box">
                 <i className="devicon-react-original project--icon"></i>
                 <i className="devicon-javascript-plain project--icon"></i>
-                <i className="devicon-css3-plain project--icon"></i>
-
-                <i className="devicon-bootstrap-plain project--icon"></i>
+                <i className="devicon-tailwindcss-plain project--icon"></i>
               </div>
             </div>
             <div className="project--links">
               <a
-                href="https://github.com/DaltonOtineru/Hacker_News"
+                href="https://github.com/DaltonOtineru/pokedex"
                 className="project--github"
                 target="_blank"
               >
                 <i className="devicon-github-original-wordmark"></i>
               </a>
               <a
-                href="https://hacker-newsclone.netlify.app"
+                href="https://gotta-catch-em-all.vercel.app/"
                 className="project--site"
                 target="_blank"
               >
@@ -71,4 +68,4 @@ const HackerNews = () => {
   );
 };
 
-export default HackerNews;
+export default Pokedex;
