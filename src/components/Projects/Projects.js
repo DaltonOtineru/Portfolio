@@ -6,16 +6,17 @@ import Pokedex from './Pokedex';
 import Ecommerce from './Ecommerce';
 import SocialMedia from './SocialMedia';
 import RealEstate from './RealEstate';
+import NextDemo from './Next-demo';
 
 const Projects = () => {
   return (
     <section id="projects" className="projects">
       <Container className="projects--wrap">
         <h3 className="projects--header">Projects</h3>
+        <NextDemo />
         <RealEstate />
-        <Pokedex />
-        <SocialMedia />
         <Ecommerce />
+        <SocialMedia />
       </Container>
     </section>
   );
